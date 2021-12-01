@@ -1,0 +1,24 @@
+{
+  "name": "@phanalpha/starkcrypto",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "tsai phan <phanalpha@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "4.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/elliptic": "^6.4.14",
+    "bip39": "^3.0.4",
+    "bn.js": "^5.2.0",
+    "elliptic": "^6.5.4",
+    "enc-utils": "^3.0.0",
+    "ethereumjs-wallet": "^1.0.2",
+    "hash.js": "^1.1.7",
+    "minimalistic-assert": "^1.0.1"
+  }
+}
