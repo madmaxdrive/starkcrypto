@@ -16,7 +16,7 @@
 
 import { hdkey } from 'ethereumjs-wallet';
 import bip39 from 'bip39';
-import encUtils from 'enc-utils';
+import * as encUtils from 'enc-utils';
 import BN from 'bn.js';
 import hash from 'hash.js';
 import { starkEc as ec } from './signature';
